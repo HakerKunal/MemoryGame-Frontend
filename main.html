@@ -12,36 +12,51 @@
 </head>
 
 <body>
-    <span class="title">Memory Based Game
-        <div class="outer-box">
-            <div class="row">
-                <div class="box" onclick="show()"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-            </div>
-            <div class="row">
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-            </div>
-            <div class="row">
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-            </div>
-            <div class="row">
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-                <div class="box"><img class="image" src="" /></div>
-            </div>
+    <span class="title">Memory Based Game</span>
+    <div class="stats">
+        <div class="time-box">Time:
         </div>
+        <div id="time">0</div>
+        <div class="lives">Lives:</div>
+        <div id="life">20</div>
+    </div>
+    </div>
 
 
-        <script src="./script.js"></script>
+
+    <div class="outer-box">
+        <div class="row">
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+        </div>
+        <div class="row">
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+        </div>
+        <div class="row">
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+        </div>
+        <div class="row">
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+            <div class="box"><img class="image" src="./images/question.jfif" /></div>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="start-button" onclick="map()"> start</button>
+        <button class="reset-button" onclick="reset()"> reset</button>
+    </div>
+
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
